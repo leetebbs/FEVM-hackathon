@@ -20,4 +20,5 @@ https://explorer.glif.io/address/0xf76D167A96Fff3526918aad94e2963Bf772444ad/?net
 
 ![Screenshot](Capture.JPG)
 ![Screenshot](CaptureMint.JPG)
+![Screenshot](CaptureMask.JPG)
 
