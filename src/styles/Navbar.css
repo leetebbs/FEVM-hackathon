@@ -11,6 +11,15 @@
   margin-left: 3rem;
 }
 
+.faucet{
+  margin-left: 3rem;
+  background-color: #ff2c2c;
+  color: white;
+  height: 30px;
+  font-weight: 700;
+  border-radius: 5px;
+  padding-bottom: 5px;
+}
 .connectBtnContainer {
   margin-right: 3rem;
 }

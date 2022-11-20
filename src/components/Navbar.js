@@ -11,6 +11,7 @@ const Navbar = () => {
         <div className="logo">
             <img className='logo-image' src={logo} alt="minted Logo"/>
         </div>
+        <a href="https://chainex.web3shala.com/chain/314" target="_blank"><button className='faucet'>Testnet Faucet</button></a>
         <div className="connectBtnContainer">
         <ConnectButton chainStatus="none"
   accountStatus={{

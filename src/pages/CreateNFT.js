@@ -118,6 +118,7 @@ const CreateNFT = () => {
   };
   return (
     <div className='create-container'>
+      <h3>0.3 tFILL to Mint per item</h3>
         <div className="containerMain">
         <div className="left">
           <p className="title">Create your NFTs</p>

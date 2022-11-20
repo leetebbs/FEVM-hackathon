@@ -7,6 +7,7 @@ import { useState } from'react'
 import { useAccount } from 'wagmi'
 import { Routes, Route, Link } from "react-router-dom";
 import CreateNFT from './pages/CreateNFT';
+import DisplayItems from './pages/DisplayItems';
 
 
 
@@ -27,6 +28,7 @@ function App() {
         <div className="line"></div>
       </header>
       <CreateNFT address={address} />
+      <DisplayItems />
     </div>
   );
 }
