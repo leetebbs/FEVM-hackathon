@@ -14,5 +14,5 @@ https://fvm-forum.filecoin.io/t/cannot-invoke-extcodesize-for-non-evm-actor/115/
 
 ## Minted
 
-![ScreenShot].src\assets\Capture.JPG)
+![ScreenShot].(Capture.JPG)
 
