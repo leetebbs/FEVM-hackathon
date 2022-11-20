@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #151C21;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+.main{
+  display: flex;
+  /* justify-content: space-between; */
+}
+.line{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width:60%;
+  height: 1px;
+  background-color: red;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .main{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+}
+

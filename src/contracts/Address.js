@@ -1,0 +1,1 @@
+export const contractAddress = "0xf76D167A96Fff3526918aad94e2963Bf772444ad" //wallaby testnet

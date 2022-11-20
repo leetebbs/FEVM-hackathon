@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
+import Navbar from './components/Navbar';
+import Left from './components/LeftMain'
+import Right from './components/RightMain'
+import { ethers } from "ethers";
+import { useState } from'react'
+import { useAccount } from 'wagmi'
+import { Routes, Route, Link } from "react-router-dom";
+import CreateNFT from './pages/CreateNFT';
+
+
 
 function App() {
+  const { address } = useAccount()
+
+  console.log(address)
+
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Navbar />
+        <div className="main">
+        <Left />
+        <Right />
+        </div>
+        <div className="line"></div>
       </header>
+      <CreateNFT address={address} />
     </div>
   );
 }
