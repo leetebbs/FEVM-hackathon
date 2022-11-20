@@ -14,6 +14,14 @@ https://fvm-forum.filecoin.io/t/cannot-invoke-extcodesize-for-non-evm-actor/115/
 Deployed contract address 0xf76D167A96Fff3526918aad94e2963Bf772444ad
 https://explorer.glif.io/address/0xf76D167A96Fff3526918aad94e2963Bf772444ad/?network=wallaby
 
+Actor:
+Robust Address
+t410f65wrm6uw77zve2iyvlmu4kldx53sirfnkgdvkii
+ID Address
+t02513
+ETH Address
+0xf76D167A96Fff3526918aad94e2963Bf772444ad
+
 
 
 ## Minted
